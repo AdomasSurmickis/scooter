@@ -1,0 +1,18 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.nav-wrapper {
+  background: rgba(33, 37, 41, 0.34);
+  width: 100%;
+  .nav-wrapper-inner {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

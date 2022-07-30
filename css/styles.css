@@ -1,0 +1,57 @@
+.main ul {
+  top: calc(50% - 60px);
+  position: fixed;
+  height: auto;
+  right: 10px;
+}
+.main li {
+  list-style-type: none;
+  width: 8px;
+  height: 8px;
+  background-color: brown;
+  border-radius: 4px;
+  margin: 20px 15px;
+  transition: 0.3s ease;
+}
+.main .active {
+  background-color: yellow;
+}
+.main .section {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.goTopLink {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+  padding: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-wrapper {
+  background: rgba(33, 37, 41, 0.34);
+  width: 100%;
+}
+.nav-wrapper .nav-wrapper-inner {
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
